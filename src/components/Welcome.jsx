@@ -7,6 +7,7 @@ class Welcome extends React.Component {
             <ul>
                 <li>Name: {this.props.name}</li>
                 <li>Age: {this.props.age}</li>
+                <li>ID: {this.props.id}</li>
             </ul>
         </div>
     );
